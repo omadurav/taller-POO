@@ -8,6 +8,6 @@ namespace TallerOPP
 {
     internal interface IPay
     {
-        public double GetValueToPay();
+        public decimal ValueToPay();
     }
 }

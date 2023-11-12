@@ -12,11 +12,12 @@ namespace TallerOPP
         public int Id { get; set; }
         public decimal Price { get; set; }
         public float Tax { get; set; }
-        public abstract double GetValueToPay();
+        public abstract decimal ValueToPay();
 
         public override string ToString()
         {
-            return $"";
+            return $" {Id} Description: {Description}";
+                
         }
     }
 }
